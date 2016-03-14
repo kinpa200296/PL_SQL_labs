@@ -5,3 +5,4 @@ set serveroutput on;
 --select count(id) from MyTable where mod(val, 2) != 0;
 --select mod(val, 2) from mytable;
 --select * from MyTable;
+--select * from db_logon_table;

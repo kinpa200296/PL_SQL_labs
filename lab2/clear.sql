@@ -1,0 +1,17 @@
+drop trigger db_logon_trigger;
+drop table db_logon_table;
+drop sequence db_logon_seq;
+drop table students;
+drop table groups;
+drop sequence students_seq;
+drop sequence groups_seq;
+drop trigger on_student_insert;
+drop trigger on_group_insert;
+drop trigger on_student_update;
+drop trigger on_group_update;
+drop trigger on_group_delete;
+drop trigger group_id_fk_trigger;
+drop table students_table_log;
+drop trigger students_table_logger;
+drop procedure restore_students;
+drop trigger on_student_quantity_change;
